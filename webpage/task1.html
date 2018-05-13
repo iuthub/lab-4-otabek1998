@@ -14,10 +14,8 @@
 		
 		<hr />
 		
-		<form action="http://www.google.com/search">
+		<form action="http://localhost/Web/lab-4-MrMax2020/webpage/data.php" method="post">
 			
-
-
 
 		<h2>Give Us Your Money</h2>
 		<dl>
@@ -30,14 +28,17 @@
 			<dd>
 				<select name="selection">
 					<option selected="selected">(Select a section)</option>
-					<option>ICE</option>
-					<option>CSE</option>
+					<option>HM</option>
+					<option>MA</option>
 				</select>
+				
 			</dd>
 			
 			<dt>Credit Card</dt>
 			<dd>
-				<input type="text" name="ccard">
+				<input type="text" name="ccard"><br>
+				<input type="radio" name="cc" value="  (Visa)" checked="checked"> Visa	 
+				<input type="radio" name="cc" value="  (MasterCard)"> MasterCard 
 			</dd>
 		</dl>
 		
